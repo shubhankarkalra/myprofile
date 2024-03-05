@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://1drv.ms/b/s!ArZa6VLQoe6riT8a-3uP-H-fgsrk?e=Csz4rE', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Kubernetes',
