@@ -162,10 +162,10 @@ const CONFIG = {
   blog: {
     source: 'https://medium.com/', // medium | dev
     username: 'shubhukalra97', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    limit: 4, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-Q6EKNTGM8S', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
