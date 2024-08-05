@@ -66,7 +66,7 @@ const CONFIG = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'shubhukalra97',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
@@ -162,7 +162,7 @@ const CONFIG = {
   blog: {
     source: 'https://medium.com/', // medium | dev
     username: 'shubhukalra97', // to hide blog section, keep it empty
-    limit: 0, // How many articles to display. Max is 10.
+    limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
