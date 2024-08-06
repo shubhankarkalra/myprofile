@@ -145,7 +145,7 @@ const CONFIG = {
       journalName: 'All About DevOps',
       authors: 'Shubhankar Kalra',
       link: 'https://packetweet.com',
-      description: 'Whether you're a seasoned DevOps pro or just starting your journey in Software Development, there's something here for you. Join me as we explore the intersection of technology, automation, and adventure.',
+      description: 'Whether you are a seasoned DevOps pro or just starting your journey in Software Development, there is something here for you. Join me as we explore the intersection of technology, automation, and adventure.',
     },
   //   {
   //     title: 'Publication Title',
