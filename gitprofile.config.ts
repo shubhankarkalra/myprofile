@@ -138,16 +138,15 @@ const CONFIG = {
       to: '2016',
     },
   ],
-  // publications: [
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: '',
-  //     journalName: 'Journal Name',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
+  publications: [
+    {
+      title: 'PackeTweet',
+      conferenceName: '',
+      journalName: 'All About DevOps',
+      authors: 'Shubhankar Kalra',
+      link: 'https://packetweet.com',
+      description: 'Whether you're a seasoned DevOps pro or just starting your journey in Software Development, there's something here for you. Join me as we explore the intersection of technology, automation, and adventure.',
+    },
   //   {
   //     title: 'Publication Title',
   //     conferenceName: 'Conference Name',
@@ -157,7 +156,7 @@ const CONFIG = {
   //     description:
   //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
   //   },
-  // ],
+   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'https://medium.com/', // medium | dev
