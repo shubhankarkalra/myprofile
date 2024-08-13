@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
-        limit: 12, // How many projects to display.
+        limit: 10, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['shubhankarkalra/my-project1', 'shubhankarkalra/my-project2']
@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Shubhankar Kalra',
-    description: '',
+    description: 'Shubhankar Kalra | I am a seasoned DevOps engineer with over 6 years of experience, specializing in Terraform, Kubernetes, and various key skills crucial for effective cloud operations. In my current role, I excel at developing RHEL-based Packer images and deploying Google Cloud Projects using Terraform. My expertise extends to infrastructure automation, monitoring with Prometheus and Grafana, and building robust CI/CD pipelines using Brigade, Helm, Docker, and Kubernetes.',
     imageURL: '',
   },
   social: {
@@ -140,28 +140,43 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'PackeTweet',
+      title: 'K8sGPT: The AI-Powered Kubernetes Tool',
       conferenceName: '',
-      journalName: 'All About DevOps',
+      journalName: 'Being An Engineer',
       authors: 'Shubhankar Kalra',
-      link: 'https://packetweet.com',
-      description: 'Whether you are a seasoned DevOps pro or just starting your journey in Software Development, there is something here for you. Join me as we explore the intersection of technology, automation, and adventure.',
+      link: 'https://beinganengineer.tech/k8sgpt-the-game-changer-ai-powered-kubernetes-tool/',
+      description: 'K8sGPT is like having a super-smart Kubernetes expert right at your fingertips. Its an open-source tool that uses generative AI to analyze your Kubernetes clusters and provide insights in plain English. Imagine getting a clear explanation of whats going wrong in your cluster without having to dig through endless logs and metrics.',
     },
-  //   {
-  //     title: 'Publication Title',
-  //     conferenceName: 'Conference Name',
-  //     journalName: '',
-  //     authors: 'John Doe, Jane Smith',
-  //     link: 'https://example.com',
-  //     description:
-  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-  //   },
+    {
+      title: 'Ultimate Roadmap to Becoming a DevOps Engineer',
+      conferenceName: '',
+      journalName: 'Being An Engineer',
+      authors: 'Shubhankar Kalra',
+      link: 'https://beinganengineer.tech/ultimate-roadmap-to-becoming-a-devops-engineer/',
+      description: 'This Roadmap will guide you through the essential skills, tools, and practices you must master to become a successful DevOps professional in 2024.',
+    },
+    {
+      title: '10 Powerful Linux File Commands Should Know as a DevOps',
+      conferenceName: '',
+      journalName: 'Being An Engineer',
+      authors: 'Shubhankar Kalra',
+      link: 'https://beinganengineer.tech/10-powerful-linux-file-commands-should-know-as-a-devops/',
+      description: 'These are not your run-of-the-mill commands; they are the secret weapons of seasoned DevOps engineers. Lets dive in and unlock the potential of these powerful tools!',
+    },
+    {
+      title: 'Securing Your Kubernetes Cluster: Top K8s Security Tools in 2024',
+      conferenceName: '',
+      journalName: 'Being An Engineer',
+      authors: 'Shubhankar Kalra',
+      link: 'https://beinganengineer.tech/securing-your-kubernetes-cluster-top-kubernetes-security-tools-in-2024/',
+      description: 'Securing your Kubernetes cluster is a continuous process that requires vigilance and proactive measures. By implementing the strategies outlined in this guide, you can significantly enhance the security posture of your Kubernetes environment.',
+    },
    ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'https://medium.com/', // medium | dev
     username: 'shubhukalra97', // to hide blog section, keep it empty
-    limit: 4, // How many articles to display. Max is 10.
+    limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: 'G-Q6EKNTGM8S', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
